@@ -161,6 +161,15 @@ nav .fa{
         line-height: 22px;
         padding: 10px;
     }
+   .pblog{
+    color: #777;
+        font-size: 12px;
+        font-weight: 300px;
+        line-height: 7px;
+        padding: 10px;
+        float: left;
+}
+
     .row{
         margin-top: 5%;
         display: flex;
