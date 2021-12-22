@@ -175,11 +175,22 @@ nav .fa{
         box-sizing: border-box;
         transition: 00.5s;
     }
-    h3{
+    .portofolio-col h3{
         text-align: center;
         font-weight: 600;
         margin: 10px 0;  
     }
+    .portofolio-col h4{
+        color: #777;
+        float: left;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .portofolio-col h2{
+        color: red;
+        
+    } 
+
     .portofolio-col:hover{
       box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     }
@@ -196,7 +207,7 @@ nav .fa{
         margin: auto;
         text-align: center;
         padding-top: 0px;
-        background-image: url(images/laptop4.png);
+        background-image: url(../images/laptop4.png);
     }
     .about_me-col{
         flex-basis: 32%;
@@ -204,7 +215,7 @@ nav .fa{
         margin-bottom: 30px;
         position: relative;
         overflow: hidden;
-        background-image: url(images/laptop4.png);
+        background-image: url(../images/laptop4.png);
     }
     .about_me h1{
         padding-top: 100px;
@@ -311,7 +322,7 @@ nav .fa{
 .contact{
 margin: 100px auto;
 width: 80%;
-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/phone1.jfif);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/phone1.jfif);
 background-position:center ;
 background-size: cover;
 border-radius: 10px;
