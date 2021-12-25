@@ -206,7 +206,13 @@ nav .fa{
         margin: auto;
         text-align: center;
         padding-top: 0px;
-        background-image: url(../images/laptop4.png);
+
+        
+        background-size: cover;
+        
+        
+
+        background-image: url(../images/laptop4.jfif);
     }
     .about_me-col{
         flex-basis: 32%;
@@ -214,7 +220,7 @@ nav .fa{
         margin-bottom: 30px;
         position: relative;
         overflow: hidden;
-        background-image: url(../images/laptop4.png);
+        background-image: url(../images/laptop4.jfif);
     }
     .about_me h1{
         padding-top: 100px;
