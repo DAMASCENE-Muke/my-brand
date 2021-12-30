@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY-BRAND</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/9ec2b12bbd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section">
+        <nav>
+            <a href="index.html"><img src="../images/dms.jpg" alt="logo"> <h6>MK Tech</h6></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="about-page.html"> About</a></li>
+                    <li><a href="contact-page.html"> Contact</a></li>
+                    <li><a href="skills-page.html"> Skills</a></li>
+                    <li><a href=""> Portofolio</li>
+                    <li><a href="blogs-page.html"> Blogs</a></li>
+                    <li><a href=""> Login</a></li>
+                    <li><a href=""> Signup</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>   
+    </section>
+
+        <!-- Blogs.......................................................................... -->
+    <section class="blogs">
+
+        <p>My Recent Posts </p>
+        <h1>My Blog</h1>
+
+        <div class="row">
+
+        <div class="blogs-col">
+            <h3>Rules/tips to learn to code</h3>
+            <p>Coding:
+                use of computer programming languages to give computers and machines a 
+                set of instructions on what actions to perform.</p>
+
+            <h4 >1.Trick Your Brain with the 20min Rule </h4>
+            <h4 >2.Code for a Purpose. Have a project  </h4>
+            <h4 >3.There is no “perfect language to learn” </h4>
+            <h4 >4.Understand what you’re writing </h4>
+            <h4 >5.It’s Ok to Not Know  </h4>
+            <h4 >6.Be a Copycat  </h4>
+            <h4 >7.Be accountable to someone. Show your work</h4>
+            <h4 >8.Keep Learning </h4>
+            <h4 >9.Get a mentor - Try Pair Programming  </h4>
+            <h4 >10.Break someone else's code </h4>
+
+            <h2> Leave a comment</h2>
+            <form method="post" action="">
+                <p ><input type="text" placeholder="Enter Name"></p>
+
+                <p><input type="text" placeholder="Enter Email"></p>
+                <p><textarea placeholder="Your comment"></textarea></p>
+               </form>
+               
+            <a href="" class="hero-btn">CONTACT ME</a>
+
+        </div>
+        <div class="blogs-col">
+            <h3>Work 2</h3>
+            <p>Lorem ipsum dolor sit met, consectetur idipiscing elit.
+                Lorem ipsum dolor sit met, consectetur idipiscing elit.
+                Lorem ipsum dolor sit met, consectetur idipiscing elit.
+            </p>
+        </div>
+        <div class="blogs-col">
+            <h3>Work 3</h3>
+            <p>Lorem ipsum dolor sit met, consectetur idipiscing elit.
+                Lorem ipsum dolor sit met, consectetur idipiscing elit.
+                Lorem ipsum dolor sit met, consectetur idipiscing elit.
+            </p>
+        </div>
+
+        </div></section>
+
+        <!-- Footer....................................... -->
+        <section class="footer">
+            <h4>About Me</h4>
+            <p>Lorem ipsum dolor sit met, consectetur idipiscing elit.
+                Lorem ipsum dolor sit met, consectetur idipiscing elit.<br>
+                Lorem ipsum dolor sit met, consectetur idipiscing elit.
+            </p> 
+
+            <div class="icons"> 
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i>by MK Technology</p>
+        </section>
+
+
+    
+
+
+
+    <!-- Javascript for Toggle Menu................................... -->
+ <script>
+     var navLinks=document.getElementById("nav-links");
+     function showMenu(){
+         navLinks.style.right="0";
+     }
+     function hideMenu(){
+         navLinks.style.right="-200px";
+     }
+
+ </script>   
+</body>
+</html>
